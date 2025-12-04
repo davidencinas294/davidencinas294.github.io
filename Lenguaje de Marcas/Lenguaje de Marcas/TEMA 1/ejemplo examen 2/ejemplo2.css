@@ -1,0 +1,23 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #e0f5e9;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #2e7d32;
+    color: #ffffff;
+    padding: 25px;
+}
+.subtitulo {
+    font-style: italic;
+    font-size: 10px;
+}
+main {
+    padding: 20px;
+}
+section {
+    background-color: #ffffff;
+    border: 10px;
+}

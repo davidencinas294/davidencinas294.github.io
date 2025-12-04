@@ -1,0 +1,40 @@
+header{
+    background-color: #0055aa;
+    padding: 20px;
+}
+
+h1{
+    color: #ffffff;
+}
+
+section{
+    background-color: #ffffff;
+
+}
+
+p{
+    font-size: 18px;
+    font-family: cursive italic;
+}
+
+html{
+    font-size: 16px;
+    font-family: Arial sans-serif;
+}
+thead{
+    background-color: #0077cc;
+
+}
+th{
+    color: #ffffff;
+}
+footer{
+    background-color: #222222;
+    
+    
+}
+p{
+    color: #ffffff;
+}
+
+    

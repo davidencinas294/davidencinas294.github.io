@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .texto1{
+                font-family:italic;
+                font-size:larger
+            }
+            table {
+               border-collapse: collapse;
+               width: 100%;
+               text-align: center;
+            }
+            #Tabla1 {
+                border: 4px solid blue;
+                border-collapse: separate;
+                border-spacing: 5px;
+            }
+            #Tabla1 td{
+                border: 4px solid blue;
+                padding: 10px;
+            }
+            
+            #table2 {
+                border: 3px solid #DAA520;
+                background-color: #D3D3D3;
+            }
+            #table2 td,#table2 th{
+                border: 3px solid #DAA520;
+                padding: 10px;
+            }
+            .td2 {
+                background-color: yellowgreen;
+            }
+            
+        </style>
+        <title>Actividad 3</title>
+        <body>
+            
+            <table id="Tabla1">
+             <thead>
+                <caption class="texto1">Tabla de Prueba 1</caption>
+                <th>columna 1</th>
+                <th>columna 2</th>
+                <th>columna 3</th>
+                <th>columna 4</th>
+            </thead>
+            <tbody>
+                
+                <tr>
+                <td>col1</td>
+                <td colspan="2">col2</td>
+                <td rowspan="2">col3</td>
+                </tr>
+                <tr>
+                <td>colum1</td>
+                <td>colum2</td>
+                <td>colum4</td>
+                </tr>
+           
+            </tbody>
+            </table>
+
+            <table id="table2">
+                <thead>
+                    <caption class="texto1">Tabla de Prueba 2</caption>
+                    <th style="background-color: gray;">columna 1</th>
+                    <th style="background-color: gray;">columna 2</th>
+                    <th style="background-color: gray;">columna 3</th>
+                    <th style="background-color: gray;">columna 4</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="background-color: yellowgreen;">col1</td>
+                        <td colspan="2" style="background-color: yellowgreen;">col2</td>
+                        <td style="background-color: yellowgreen;">col3</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: gray;">col1</td>
+                        <td rowspan="2" style="background-color: gray;">col2</td>
+                        <td style="background-color: gray;">col3</td>
+                        <td style="background-color: gray;">col4</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: yellowgreen;">col1</td>
+                        <td style="background-color: yellowgreen;">col3</td>
+                        <td style="background-color: yellowgreen;">col4</td>
+                    </tr>
+                     <tr>
+                         <td style="background-color: gray;">col1</td>
+                        <td style="background-color: gray;">col2</td>
+                        <td style="background-color: gray;">col3</td>
+                        <td style="background-color: gray;">col4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+    </head>
+</html>
