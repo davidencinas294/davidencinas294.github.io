@@ -14,7 +14,7 @@ A continuación, se listan los proyectos clasificados por asignatura. Haz clic e
 
 | Proyecto |
 | :--- | :--- | :--- | :--- |
-| **[Proyecto 1: Bingo con html, CSS y js](LINK_AL_REPO_BD1)** |Finalizado ✅ |
+| **[Proyecto 1: Login con html, CSS y js](LINK_AL_REPO_BD1)** |Finalizado ✅ |
 | **[Proyecto 2: Dado con html, CSS y  js](LINK_AL_REPO_BD2)** |Finalizado ✅ |
 
 
