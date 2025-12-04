@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dado Aleatorio</title>
+    <link rel="stylesheet" href="../../estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Dado Aleatorio</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../../PortafolioExamen.html">Inicio</a></li>
+                <li><a href="../notas/FormularioNotas.html">Formulario de Notas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="proyecto-container">
+            <div class="proyecto-header">
+                <a href="../../PortafolioExamen.html" class="back-btn">← Volver al Portafolio</a>
+                <h1>Dado Aleatorio</h1>
+                <p>Simulador de lanzamiento de dados con historial</p>
+            </div>
+
+            <div class="dado-visual">
+                <div class="cara-dado" id="cara-dado">🎲</div>
+            </div>
+
+            <div class="botones">
+                <button onclick="lanzarDado()" class="btn btn-primary">Lanzar Dado</button>
+            </div>
+
+            <div class="historial">
+                <h3>Historial de Lanzamientos</h3>
+                <div id="historial-lista" class="historial-lista">
+                    <!-- El historial se mostrará aquí -->
+                </div>
+            </div>
+
+            <div class="botones">
+                <button onclick="limpiarHistorial()" class="btn btn-secondary">Limpiar Historial</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Portafolio Examen JavaScript. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scriptDadoAleatorio.js"></script>
+</body>
+</html>
