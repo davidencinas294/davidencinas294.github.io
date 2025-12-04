@@ -1,12 +1,12 @@
 # 👋 Hola, soy David Encinas
 
-### 🚀 [davidencinas294.github.io](https://github.com/davidencinas294/davidencinas294.github.io)
+###  [davidencinas294.github.io](https://github.com/davidencinas294/davidencinas294.github.io)
 
 ¡Bienvenido a mi espacio en GitHub! Aquí podrás encontrar una recopilación organizada de los proyectos y trabajos que he desarrollado en mis **asignaturas** durante mis estudios en (IES Alonso de Ercilla).
 
 ---
 
-## 📚 Portafolio de Proyectos Académicos
+##  Portafolio de Proyectos Académicos
 
 A continuación, se listan los proyectos clasificados por asignatura. Haz clic en el título de cada proyecto para ir a su **repositorio dedicado** donde encontrarás el código fuente, la documentación y las instrucciones de ejecución.
 
